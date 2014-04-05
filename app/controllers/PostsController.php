@@ -9,7 +9,7 @@ class PostsController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		return "index";
 	}
 
 	/**
@@ -19,7 +19,15 @@ class PostsController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		// load database
+
+		// work, out template
+
+		$this->beforeFilter("fooFilter");
+
+		$this->afterFilter("fooFilter");
+
+		return "foo bar baz";
 	}
 
 	/**

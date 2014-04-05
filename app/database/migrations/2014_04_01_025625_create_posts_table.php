@@ -12,7 +12,7 @@ class CreatePostsTable extends Migration {
 	 */
 	public function up()
 	{
-	  //
+	  
 	}
 
 	/**
